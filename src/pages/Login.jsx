@@ -1,8 +1,8 @@
 // src/containers/Login/Login.jsx
 import { Formik, Form, Field, ErrorMessage } from 'formik'
-import { loginSchema } from '../../schemas/loginSchema'
-import { useLoginMutation } from '../../features/auth/authApi'
-import { setCredentials } from '../../features/auth/authSlice'
+import { loginSchema } from '../schemas/loginSchema'
+import { useLoginMutation } from '../features/auth/authApi'
+import { setCredentials } from '../features/auth/authSlice'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 
